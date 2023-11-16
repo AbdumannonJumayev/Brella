@@ -1,0 +1,52 @@
+.navbar{
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    &__contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        gap: 49px;
+//  @media  and (max-width:1089px) {
+//             gap: 20px;
+        
+        a{
+            color: #214E41;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+        }
+    
+    button{
+        color: #FFF;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+padding: 10px 14px ;
+border-radius: 6px;
+background: #43806C;
+border: 0;
+outline: none;
+cursor: pointer;
+    }
+  select{
+    border: 0;
+    outline: none;
+    color: #214E41;
+font-family: Raleway;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 153.846% */
+  }
+}
+}

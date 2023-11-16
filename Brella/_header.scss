@@ -1,0 +1,63 @@
+.header{
+    height: 720px;
+    background-image: url(./image/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    &__title{
+        color: #214E41;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 127.778% */
+max-width: 515px;
+    }
+    &__text{
+        color: #214E41;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        padding-top: 40px;
+    }
+    &__search{
+display: flex;
+align-items: center;
+margin-top: 16px;
+input{
+    width: 172px;
+height: 60px;
+flex-shrink: 0;
+    color: #222;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+border: 0;
+outline: none;
+padding: 20px;
+border-radius: 6px 0px 0px 6px;
+background: #FFF;
+}
+button{
+    color: #FFF;
+font-family: Raleway;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 153.846% */
+border-radius: 0px 6px 6px 0px;
+background: #43806C;
+width: 123px;
+height: 60px;
+flex-shrink: 0;
+border: 0;
+
+}
+    }
+}
